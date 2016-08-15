@@ -1,0 +1,30 @@
+//----------------------------------*\
+// NORMALIZE
+//----------------------------------*/
+
+@import 'vendor/normalize';
+
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
+
+@import 'config/_vars';
+@import 'config/_clearfix';
+@import 'config/_defaults';
+
+//----------------------------------*\
+// GENERAL
+//----------------------------------*/
+
+@import 'general/_typography';
+@import 'general/_misc';
+@import 'general/_breakpoints';
+@import 'general/_animations';
+@import 'general/_app';
+
+//----------------------------------*\
+// MODULES
+//----------------------------------*/
+
+// ej:
+// @import '../app/modules/module1/_module1.scss';

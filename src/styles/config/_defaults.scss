@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 300 13px/1.6 Helvetica, Arial;
+  overflow: hidden;
+  min-height: 100vh;
+}

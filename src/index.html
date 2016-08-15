@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <style>
+      /* This helps the ng-show/ng-hide animations start at the right place. */
+      /* Since Angular has this but needs to load, this gives us the class early. */
+
+      .ng-hide {
+        display: none !important;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <title>ngStarter</title>
+    <base href="." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+
+    <!-- inject:css -->
+    <!-- endinject -->
+  </head>
+  <body ui-view>
+    <!-- inject:vendor:js -->
+    <!-- endinject -->
+    <!-- inject:js -->
+    <!-- endinject -->
+  </body>
+</html>
