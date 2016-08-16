@@ -1,7 +1,7 @@
 ngStarter
 ============
 
-Starter for Angular-1x projects using John Papa style guide.
+Starter for Angular 1.x projects using John Papa style guide.
 Use node `>=6.3` and npm `>=3.10.3`
 
 ## Install dependencies
