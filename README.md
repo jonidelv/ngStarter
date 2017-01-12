@@ -24,11 +24,9 @@ Use node `>=6.3` and npm `>=3.10.3`
 `npm run test`
 
 
-## Production ready build - a.k.a. dist
+## Production ready
 
 
 `npm run dist`
 
 Now there's a `./dist` folder with all scripts and stylesheets concatenated and minified, also third party libraries installed with bower will be concatenated and minified into `vendors.min.js` and `vendors.min.css` respectively.
-
-[more](https://www.npmjs.com/package/slush-oxygene)
